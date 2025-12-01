@@ -63,7 +63,7 @@ class MonteCarloIntegrator:
 
 # Interfaz Streamlit
 st.title("Integración Monte Carlo")
-st.latex(r"\frac{1.0}{e^x + e^{-x}}")
+st.latex(r"\frac{1}{e^x + e^{-x}}")
 # Controles de entrada
 col1, col2, col3 = st.columns(3)
 with col1:
